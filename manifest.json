@@ -1,0 +1,765 @@
+{
+  "description": "Renaming-only export of allowlisted original research artifacts",
+  "excluded": [
+    "raw training checkpoints",
+    "per-model evaluator JSON outputs",
+    "raw model training and evaluation run directories",
+    "Git history and machine-specific temporary files"
+  ],
+  "files": [
+    {
+      "exported_path": "LICENSE",
+      "sha256": "9a6b9d14c84b93fc2423f1ff969f52dada2070a176472103ad7b4812fd405407",
+      "size_bytes": 1084,
+      "source_path": "LICENSE"
+    },
+    {
+      "exported_path": "PROVENANCE_README.md",
+      "sha256": "1efba9d01679dc3871d2b68e2c10ab9bebbd0af251e1238fe04ed07948a4d68f",
+      "size_bytes": 6884,
+      "source_path": "paper/reproducibility/README.md"
+    },
+    {
+      "exported_path": "code/experiments/additivity/IMPLEMENTATION_MANIFEST.json",
+      "sha256": "464a2b78263714bd9ea123fefeecb96464a21c0346723c7d536bd15952848089",
+      "size_bytes": 4573,
+      "source_path": "studies/cnn_patching_additivity/IMPLEMENTATION_MANIFEST.json"
+    },
+    {
+      "exported_path": "code/experiments/additivity/analyze.py",
+      "sha256": "de0a4e0656f3cb1e75250c6f7402172d9d09a6643941110c5d93c76b44a70036",
+      "size_bytes": 20014,
+      "source_path": "studies/cnn_patching_additivity/analyze.py"
+    },
+    {
+      "exported_path": "code/experiments/additivity/evaluate.py",
+      "sha256": "aa13f1f080a67235d249a330ab0d9c2f0601839a59393da1fb32b405bf8c7976",
+      "size_bytes": 32531,
+      "source_path": "studies/cnn_patching_additivity/evaluate.py"
+    },
+    {
+      "exported_path": "code/experiments/additivity/math_core.py",
+      "sha256": "021456b0d1ca20652051d6e730987abf05d842d4f7cb3a9eb459a58837a4a5e2",
+      "size_bytes": 13083,
+      "source_path": "studies/cnn_patching_additivity/math_core.py"
+    },
+    {
+      "exported_path": "code/experiments/additivity/test_math.py",
+      "sha256": "313d950f44a3a411cea28ec15e6e0e42e159219970361fedf9ff56ba70ff181c",
+      "size_bytes": 1455,
+      "source_path": "studies/cnn_patching_additivity/test_math.py"
+    },
+    {
+      "exported_path": "code/experiments/additivity/validate.py",
+      "sha256": "d2236516ea45976632815cafe3a91c5ca81ec2e8578e388b19b324288918e423",
+      "size_bytes": 7182,
+      "source_path": "studies/cnn_patching_additivity/validate.py"
+    },
+    {
+      "exported_path": "code/experiments/architecture_comparison/analyze.py",
+      "sha256": "9bdf64ea49b3da64b8191138ac859cf4a9fb62b80858b87c3d3cb801a13b71d7",
+      "size_bytes": 21552,
+      "source_path": "studies/cnn_architecture_robustness/analyze.py"
+    },
+    {
+      "exported_path": "code/experiments/architecture_comparison/architecture_core.py",
+      "sha256": "5fd97b05696cc2921750511eab8c09c56b4ba3f2379974f663396a5c02e619c0",
+      "size_bytes": 5780,
+      "source_path": "studies/cnn_architecture_robustness/architecture_core.py"
+    },
+    {
+      "exported_path": "code/experiments/architecture_comparison/evaluate_grid.py",
+      "sha256": "bcf80ef304aa29d0af1a2264a59ac357c607b7d1363ee901e6132fb56232cdbd",
+      "size_bytes": 14641,
+      "source_path": "studies/cnn_architecture_robustness/evaluate_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/architecture_comparison/train_grid.py",
+      "sha256": "d4ea3adea8c15564398cdad2f51f2b4455434438aafff1c83a21790a1c45709f",
+      "size_bytes": 11967,
+      "source_path": "studies/cnn_architecture_robustness/train_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/architecture_posthoc/analyze.py",
+      "sha256": "f2b2c9c41dd8a603fbc2e3178cdec7a9f09f850a694713ceaec38e8c5ba84a8b",
+      "size_bytes": 18974,
+      "source_path": "studies/cnn_architecture_posthoc/analyze.py"
+    },
+    {
+      "exported_path": "code/experiments/intervention_budget/analyze.py",
+      "sha256": "2a3b2ae71c814bae60eea81dd6dfea5955dea08ca957cba0818d685198898b12",
+      "size_bytes": 9758,
+      "source_path": "studies/cnn_budget_confirmation/analyze.py"
+    },
+    {
+      "exported_path": "code/experiments/metric_sensitivity/analyze_metrics.py",
+      "sha256": "ca9df9171668bf44d2398cf770c202ccce4366fca03373460a3e3010e5806c2e",
+      "size_bytes": 19670,
+      "source_path": "studies/cnn_metric_sensitivity/analyze_metrics.py"
+    },
+    {
+      "exported_path": "code/experiments/metric_sensitivity/evaluate_metrics.py",
+      "sha256": "4e258937593bfbb884954969713b65fa7e0556d241bdd5b353dcc20f61c3bbf9",
+      "size_bytes": 14717,
+      "source_path": "studies/cnn_metric_sensitivity/evaluate_metrics.py"
+    },
+    {
+      "exported_path": "code/experiments/renderer_and_models/core.py",
+      "sha256": "9d1fb3e8f96124632bc97df5d4525cbc3174df9fe2b97c546d3b5a48a46fe9e2",
+      "size_bytes": 14191,
+      "source_path": "studies/cnn_release_experiment/core.py"
+    },
+    {
+      "exported_path": "code/experiments/robustness_grid/analyze_grid.py",
+      "sha256": "d8e7d2f5348e9b0927d87069be812667423abe2cb9c7f5e59329ee0444f5d721",
+      "size_bytes": 13241,
+      "source_path": "studies/cnn_exhaustive_robustness/analyze_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/robustness_grid/evaluate_grid.py",
+      "sha256": "7e01f166446060216a4145d8d560f63d792ee8135c66ceda88009ef72468c1fd",
+      "size_bytes": 14365,
+      "source_path": "studies/cnn_exhaustive_robustness/evaluate_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/robustness_grid/train_grid.py",
+      "sha256": "81de02720c38e2645f6a8ff9627991f293d168109ab7b5c7d9f470281ac3c71d",
+      "size_bytes": 11616,
+      "source_path": "studies/cnn_exhaustive_robustness/train_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/spatial_specificity/analyze.py",
+      "sha256": "c8778ff39989840e0ba994e75ee426acc58246652c29bd613a659a0b567402c4",
+      "size_bytes": 21218,
+      "source_path": "studies/cnn_anchor_specificity/analyze.py"
+    },
+    {
+      "exported_path": "code/experiments/spatial_specificity/anchor_core.py",
+      "sha256": "a96df9c950dfc200ec9e849ef26103d93389a0aad6bd0cca457d98f017de2e50",
+      "size_bytes": 7469,
+      "source_path": "studies/cnn_anchor_specificity/anchor_core.py"
+    },
+    {
+      "exported_path": "code/experiments/spatial_specificity/evaluate_grid.py",
+      "sha256": "eaca6ee1f3924bebc7c7adb2d5bc7519037f10c55ac7b6e70e4223d420f0b414",
+      "size_bytes": 14477,
+      "source_path": "studies/cnn_anchor_specificity/evaluate_grid.py"
+    },
+    {
+      "exported_path": "code/experiments/spatial_specificity/train_grid.py",
+      "sha256": "cbed1d87f0c5ef68e3caadc178360adaeb936c27a5466bd5059c21bf2a052b93",
+      "size_bytes": 12753,
+      "source_path": "studies/cnn_anchor_specificity/train_grid.py"
+    },
+    {
+      "exported_path": "code/figures/build_additivity_curves_figure.py",
+      "sha256": "90b25cdfd14c0ee668e654ef98dd34a0d14016a183ebca2c0fb3670b17600a11",
+      "size_bytes": 6386,
+      "source_path": "paper/build_additivity_curves_figure.py"
+    },
+    {
+      "exported_path": "code/figures/build_additivity_figure.py",
+      "sha256": "684f8f8d21040b94628fc62eb6d597348ded498defff8b3089369611847a6197",
+      "size_bytes": 6826,
+      "source_path": "paper/build_additivity_figure.py"
+    },
+    {
+      "exported_path": "code/figures/build_anchor_specificity_figure.py",
+      "sha256": "d7428702000cbe6fe94b5741b950868ee643c312ba086e72559d78fb8634b59e",
+      "size_bytes": 7497,
+      "source_path": "paper/build_anchor_specificity_figure.py"
+    },
+    {
+      "exported_path": "code/figures/build_figures.py",
+      "sha256": "7750fbf021e6788064d716c32696463bcc86ece18a8888aeedb8e8c174ea68d8",
+      "size_bytes": 16915,
+      "source_path": "paper/build_figures.py"
+    },
+    {
+      "exported_path": "code/figures/build_main_results_figure.py",
+      "sha256": "29824eb5e40264ae5381796ed4b68d37b52cf0e58d481ff836f693d79511c606",
+      "size_bytes": 10546,
+      "source_path": "paper/build_main_results_figure.py"
+    },
+    {
+      "exported_path": "code/figures/build_overview_figure.py",
+      "sha256": "84312701672db4078090528a45df84deaeb5eb772fb0493ce39e3bc93efca4c1",
+      "size_bytes": 11755,
+      "source_path": "paper/build_overview_figure.py"
+    },
+    {
+      "exported_path": "code/figures/plot_style.py",
+      "sha256": "4b033a027b1255c2accd28e4178e3958ee861a81280d3f4bc7a452e2c2c0fa95",
+      "size_bytes": 5854,
+      "source_path": "paper/plot_style.py"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/B_per_block.csv",
+      "sha256": "a8d0ad22b03ce34909ebc9c4073ff999d167d477783afe41d10d6f18fb92e0ac",
+      "size_bytes": 4072971,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/B_per_block.csv"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/B_summary.csv",
+      "sha256": "48d96b7cba7c3f4dd75a79149add39727c50ea2d6549260b638a60c2f1e4b043",
+      "size_bytes": 56312,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/B_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/REPORT.md",
+      "sha256": "0234ac6e2681e692f6d46f6df5594dc54b5e83683aa03543e1309838d5d91ef6",
+      "size_bytes": 16804,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/REPORT.md"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/curve_summary.csv",
+      "sha256": "b274e0a2ad1d266479d20dd943cba8baa64d603997fec09f46bc68d03c7dbbe6",
+      "size_bytes": 1544447,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/curve_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/model_integrity.csv",
+      "sha256": "1dd6fa6ecb4ad469fbe079e27edac6c3204dbca1b002e95ff71b5a8fdbd04a6c",
+      "size_bytes": 6842820,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/model_integrity.csv"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/reconstruction_gap_summary.csv",
+      "sha256": "03a8561f33813b33885a6d7dcea6746313b2697dc7f545103e3fe5008d22812b",
+      "size_bytes": 303692,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/reconstruction_gap_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/architecture_comparison/summary.json",
+      "sha256": "87af151a0a8a66de242b052b3e57f15314165fba41d83280609db3c01cc70dd8",
+      "size_bytes": 1004,
+      "source_path": "analysis/patching_additivity_001/architecture_analysis/summary.json"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/B_per_block.csv",
+      "sha256": "8a82dde7f3629b64bf0a1232fb850673117e2835f1eedccca54bd51986cd27df",
+      "size_bytes": 2143985,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/B_per_block.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/B_summary.csv",
+      "sha256": "39df050c4454170dbc1ada2fb412bc5e9f3ffd8eba48656ab1a9e82b0cf26150",
+      "size_bytes": 29218,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/B_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/REPORT.md",
+      "sha256": "5fbb0bced054dd0f6694a11b21d6c259dd0dc6457435134aae7071d8e2818729",
+      "size_bytes": 11797,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/REPORT.md"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/curve_summary.csv",
+      "sha256": "b34a7aab29211fa22d1569078aa16c11f2f7ff91574686d109cd7c78172bbc53",
+      "size_bytes": 810267,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/curve_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/model_integrity.csv",
+      "sha256": "7de3ccea2bf6a59de868ba600274c564be058060db4f32cf321d6fb7e511c303",
+      "size_bytes": 3684714,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/model_integrity.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/reconstruction_gap_summary.csv",
+      "sha256": "8887d162311a9686fda2098bbfdb68dc57ae94df5a1de0eab2b25f551f91788f",
+      "size_bytes": 161602,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/reconstruction_gap_summary.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/structured_vs_pixel_permuted_B_averaged_architectures.csv",
+      "sha256": "b87e3990e16d77e4f122241c5c645e8e12323e3ae758f37f1c9afa82234c9804",
+      "size_bytes": 915,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/structured_vs_pixel_permuted_B_averaged_architectures.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/structured_vs_pixel_permuted_B_by_architecture.csv",
+      "sha256": "85f4bab88b06d1c455682ec976392087ef7aa3f676598b4eac3ddbcfbfc29d1b",
+      "size_bytes": 3948,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/structured_vs_pixel_permuted_B_by_architecture.csv"
+    },
+    {
+      "exported_path": "data/additivity/spatial_controls/summary.json",
+      "sha256": "88904e676ab4e64777f5b808139942410bab48c6edef3dd5072b39e66738539a",
+      "size_bytes": 1176,
+      "source_path": "analysis/patching_additivity_001/anchor_analysis/summary.json"
+    },
+    {
+      "exported_path": "data/architecture/REPORT.md",
+      "sha256": "6d4c05bbf9452fc22bf755542ec8574c19385e1622cec80a712a5b9745677490",
+      "size_bytes": 3847,
+      "source_path": "analysis/architecture_robustness_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/architecture/architecture_B_summary.csv",
+      "sha256": "31e0183e6ef7154c1df01d8357526b3cc49120d21592e4c0599e44a044255e77",
+      "size_bytes": 43595,
+      "source_path": "analysis/architecture_robustness_001/architecture_B_summary.csv"
+    },
+    {
+      "exported_path": "data/architecture/architecture_factor_contrasts.csv",
+      "sha256": "783b74be31678772faed244f4573ab3f266c97d84699c318b2f9200c63f0404d",
+      "size_bytes": 82934,
+      "source_path": "analysis/architecture_robustness_001/architecture_factor_contrasts.csv"
+    },
+    {
+      "exported_path": "data/architecture/evaluation_design.json",
+      "sha256": "19e426dc3effdbc6ffd34532c9b0bd9260c4b5a93376e8f6bbd22383c91a51a8",
+      "size_bytes": 816,
+      "source_path": "analysis/architecture_robustness_001/evaluation_design.json"
+    },
+    {
+      "exported_path": "data/architecture/execution_manifest.json",
+      "sha256": "57828405c10f430e38e678eaa3f99f5b3bbf0a9bcb15e894d00b4fbd3e1ce871",
+      "size_bytes": 1134,
+      "source_path": "analysis/architecture_robustness_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/architecture/input_effect_scale_contrasts.csv",
+      "sha256": "6d728f6cf3d0a14715b28d6deb9565977a6f43b68e04b41f0e5c3583530da9ba",
+      "size_bytes": 16850,
+      "source_path": "analysis/architecture_robustness_001/input_effect_scale_contrasts.csv"
+    },
+    {
+      "exported_path": "data/architecture/primary_architecture_omnibus.csv",
+      "sha256": "039fffaf4d75a0bbf25d7cdef4af4c7418382d7bae1d7c06a58d01a4ce573306",
+      "size_bytes": 520,
+      "source_path": "analysis/architecture_robustness_001/primary_architecture_omnibus.csv"
+    },
+    {
+      "exported_path": "data/architecture/primary_bridge_contrast.csv",
+      "sha256": "49e9ab0e5641dde3a622cb704739484cacfba0289c3bc681a39da863b726aa68",
+      "size_bytes": 501,
+      "source_path": "analysis/architecture_robustness_001/primary_bridge_contrast.csv"
+    },
+    {
+      "exported_path": "data/architecture/primary_bridge_contrast_per_block.csv",
+      "sha256": "ba8d759f276570a09b419802b7cceb83a6cc00a7ada79e32efede86967a8002a",
+      "size_bytes": 17204,
+      "source_path": "analysis/architecture_robustness_001/primary_bridge_contrast_per_block.csv"
+    },
+    {
+      "exported_path": "data/architecture/training_design.json",
+      "sha256": "e33c185d88a7c9e072774cc5c3a21f7fd95f3a77a357d5a134d8ca8fe004d562",
+      "size_bytes": 4188,
+      "source_path": "analysis/architecture_robustness_001/training_design.json"
+    },
+    {
+      "exported_path": "data/architecture/training_environment.json",
+      "sha256": "9c041e44094f4e5df3dc699adfb49bc99c807b9ef6bea64b3abf4269fc971c6e",
+      "size_bytes": 293,
+      "source_path": "analysis/architecture_robustness_001/training_environment.json"
+    },
+    {
+      "exported_path": "data/architecture/treatment_delta_curves.csv",
+      "sha256": "455e4b6785ee5d3f21fd14e6d518e7541171183f7422c22076ac73b6800800f1",
+      "size_bytes": 532873,
+      "source_path": "analysis/architecture_robustness_001/treatment_delta_curves.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/REPORT.md",
+      "sha256": "516136f73419ebdd8c10145e1586f83a84668b4acb14d11d8908d0f812a5c807",
+      "size_bytes": 1393,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/alignment_B_architecture_mean_correlations.csv",
+      "sha256": "c8c8eb65e4f0109cdc07b797ed1f331933a49354618495bc1ed058cbb973c17e",
+      "size_bytes": 226,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/alignment_B_architecture_mean_correlations.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/alignment_B_architecture_summary.csv",
+      "sha256": "2baa12942906e95828943abdda1d4ce6afdb77d5536046cb5b9ea307c36c4d40",
+      "size_bytes": 5598,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/alignment_B_architecture_summary.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/alignment_B_correlations.csv",
+      "sha256": "6a844a4302433c51c6558cb7d9e40a5af36f2143934ab57bfc7cf64f6b39639e",
+      "size_bytes": 3582,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/alignment_B_correlations.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/alignment_B_per_block.csv",
+      "sha256": "0102d624abd56eddf1b5c54108767f7fc1cbd0367f36f7232ce7f1e044cbf66c",
+      "size_bytes": 458355,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/alignment_B_per_block.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/architecture_definitions.csv",
+      "sha256": "6859a18d97f857aab5841fb24f40b8356646b9c6f01b2fc9137a2798e09f351f",
+      "size_bytes": 726,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/architecture_definitions.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/execution_manifest.json",
+      "sha256": "245b4b2dd8f407c1e8b3d6605e07963a25b4d02f8b026b2f8c1c1cf24e3644de",
+      "size_bytes": 562,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/launch_manifest.json",
+      "sha256": "a1763428115bf32dd3f4e632900995c2106478d4a169e4f37a2e6889e3c8f88f",
+      "size_bytes": 825,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/launch_manifest.json"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/omnibus_robustness.csv",
+      "sha256": "e60c74ea3232a94f598f70ef3686c1f942d432619bd5b07f507cf1d690c72ca8",
+      "size_bytes": 1964,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/omnibus_robustness.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/random_B_per_block.csv",
+      "sha256": "1cb65f6d407106321313b7f9d4de44c4f4dd2353d264a7825ac71e63c8278996",
+      "size_bytes": 535715,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/random_B_per_block.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/random_bridge_contrast.csv",
+      "sha256": "1c28931784a6bbeabfe61f9300c6c9beb4c0f8a965417256cdd520df01b46359",
+      "size_bytes": 527,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/random_bridge_contrast.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/selected_B_per_block.csv",
+      "sha256": "a512f44aec153fdb8a016d644fddc93263f39f737bbcb45b8159b436a3d58f97",
+      "size_bytes": 545583,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/selected_B_per_block.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/selected_random_architecture_correlations.csv",
+      "sha256": "5b03115a181dc458c375f81eda5e8a61a83016b9e896b0fc862854bbe6984090",
+      "size_bytes": 202,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/selected_random_architecture_correlations.csv"
+    },
+    {
+      "exported_path": "data/architecture_posthoc/selected_random_summary.csv",
+      "sha256": "5a642cada55b8bda122b490410d0d3dffb011814587031e5f766bd2c78053c1e",
+      "size_bytes": 15220,
+      "source_path": "analysis/architecture_posthoc_diagnostics_001/selected_random_summary.csv"
+    },
+    {
+      "exported_path": "data/checkpoint_audit/AUDIT_REPORT.md",
+      "sha256": "8797c880ee57bf8a288b99abf4ca820b53f6a10372f497d484b32d256f67bd99",
+      "size_bytes": 1833,
+      "source_path": "analysis/checkpoint_audit/AUDIT_REPORT.md"
+    },
+    {
+      "exported_path": "data/filter_structure/kernel_gallery.npz",
+      "sha256": "a9d1337a38b5a2478d858165e602bd607d8f7a870a3c1b95c564c057753db05b",
+      "size_bytes": 41407,
+      "source_path": "analysis/kernel_similarity/results/kernel_gallery.npz"
+    },
+    {
+      "exported_path": "data/filter_structure/per_checkpoint.csv",
+      "sha256": "27e3efae740a6dc06e257742e48b084884653a0c882181726848cd1982e78fd6",
+      "size_bytes": 598417,
+      "source_path": "analysis/kernel_similarity/results/per_checkpoint.csv"
+    },
+    {
+      "exported_path": "data/filter_structure/similarity_matrices.npz",
+      "sha256": "02032ee12851c5bf113efa4aa3238e81cfe54d7e0adaa51e52f31aa9a61902bb",
+      "size_bytes": 3487602,
+      "source_path": "analysis/kernel_similarity/results/similarity_matrices.npz"
+    },
+    {
+      "exported_path": "data/intervention_budget/REPORT.md",
+      "sha256": "e48fc2ccf8c9e4d2b02c99c31d43661f7a962c637b7882ec25fd4ca754472107",
+      "size_bytes": 3145,
+      "source_path": "analysis/budget_confirmation_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/intervention_budget/budget_contrasts.csv",
+      "sha256": "6c5768530efc7308c73c697f9077bcd4aae5f8e80e99d952b8257bdd28edbbc2",
+      "size_bytes": 1049,
+      "source_path": "analysis/budget_confirmation_001/budget_contrasts.csv"
+    },
+    {
+      "exported_path": "data/intervention_budget/budget_contrasts_per_block.csv",
+      "sha256": "36696e02dd94a3ccb16292c0a9a866ec1f0210fd457dc3de71477fb6bd338047",
+      "size_bytes": 5546,
+      "source_path": "analysis/budget_confirmation_001/budget_contrasts_per_block.csv"
+    },
+    {
+      "exported_path": "data/intervention_budget/execution_manifest.json",
+      "sha256": "3ea85c0d3f9305678424cb0e4015de9e889b79f14a6425197510a483a4457843",
+      "size_bytes": 4386,
+      "source_path": "analysis/budget_confirmation_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/intervention_budget/integrity_checks.csv",
+      "sha256": "8440310b1d3c17ef984ded10a4d2ffcd9b9748f2834c512835e13acf68eb6110",
+      "size_bytes": 5507,
+      "source_path": "analysis/budget_confirmation_001/integrity_checks.csv"
+    },
+    {
+      "exported_path": "data/intervention_budget/primary_curve.csv",
+      "sha256": "51c31ea529f6fcef0cb180ad36dbf791501af6ecf8697f7e2fca80fa8fa79944",
+      "size_bytes": 1441,
+      "source_path": "analysis/budget_confirmation_001/primary_curve.csv"
+    },
+    {
+      "exported_path": "data/intervention_budget/treatment_contrasts.csv",
+      "sha256": "00b354d9b3b275d9ce12f399c9076f2a52256f3ac986923faaa8a4e939970550",
+      "size_bytes": 8661,
+      "source_path": "analysis/budget_confirmation_001/treatment_contrasts.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/REPORT.md",
+      "sha256": "3aa879df4aec8621436c55ec7377155dbc5d0b95319151ce7cb920d96ecbc092",
+      "size_bytes": 3873,
+      "source_path": "analysis/metric_sensitivity_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/execution_manifest.json",
+      "sha256": "266cab88fec56e811b2f65354071ce5b0be276db7b513deb10dc38b68156a54e",
+      "size_bytes": 1566,
+      "source_path": "analysis/metric_sensitivity_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_budget_contrasts_B.csv",
+      "sha256": "1e0e91fa60edfd76be2db3f0fc622c0660d4ce7a27fc93da4c13c50a706acc4e",
+      "size_bytes": 7796,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_budget_contrasts_B.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_budget_contrasts_B_per_block.csv",
+      "sha256": "ce72cbba212181419016ea1e6d7401756e74b0e9f3964bc608f5ec152db3464f",
+      "size_bytes": 60546,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_budget_contrasts_B_per_block.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_design.json",
+      "sha256": "99645e4d0f68022c1ca6c12dc60b87cbfedb268e9ddebe381ae2f879d9ff69b0",
+      "size_bytes": 727,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_design.json"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_input_effect_scale_contrasts.csv",
+      "sha256": "a76bb6522457bc53160444bbf6cc011627cad565d94b46260cbb5e079b55345b",
+      "size_bytes": 1008,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_input_effect_scale_contrasts.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_input_effect_scale_contrasts_per_block.csv",
+      "sha256": "c20830a7e1c053316ef31f13efe954b14c8e8d88d665ea019b5c97b67ffc336d",
+      "size_bytes": 7350,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_input_effect_scale_contrasts_per_block.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_model_integrity.csv",
+      "sha256": "926f249149b6be4e4e0c65f421aa1b9143ca7e25da03058219487c0b940948cf",
+      "size_bytes": 27216,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_model_integrity.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_treatment_contrasts.csv",
+      "sha256": "c92318e42e2c122d6eaae1241c7fedca216c54ff431cc7c4e98f874a18c9d42d",
+      "size_bytes": 23905,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_treatment_contrasts.csv"
+    },
+    {
+      "exported_path": "data/metric_sensitivity/stage_d_treatment_contrasts_per_block.csv",
+      "sha256": "a5d5b1b8f9157daca017fde7e3739e2cdbb34bd210969cfa3e32205d96e6d865",
+      "size_bytes": 250296,
+      "source_path": "analysis/metric_sensitivity_001/stage_d_treatment_contrasts_per_block.csv"
+    },
+    {
+      "exported_path": "data/retention_release/endpoints.csv",
+      "sha256": "b8ef3416990d6ad641caac25e29c1d7dd61d0d9fb2e11e167f6c1820d94fe74a",
+      "size_bytes": 74336,
+      "source_path": "analysis/retention_release_001/endpoints.csv"
+    },
+    {
+      "exported_path": "data/robustness/REPORT.md",
+      "sha256": "d73364436d5b878cf55560f7849999a8411afb2da66e3a3d66b1e318be298322",
+      "size_bytes": 3341,
+      "source_path": "analysis/exhaustive_robustness_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/robustness/execution_manifest.json",
+      "sha256": "e9e87aee1648996351270de546a47a23d339bceeaa11ac76a57b793561c3bb7a",
+      "size_bytes": 6519,
+      "source_path": "analysis/exhaustive_robustness_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/robustness/full_budget_curves.csv",
+      "sha256": "764ba33b91b896ec694b82895174f3bbde5cac9b44fce3b110f930483913f1cf",
+      "size_bytes": 541357,
+      "source_path": "analysis/exhaustive_robustness_001/full_budget_curves.csv"
+    },
+    {
+      "exported_path": "data/robustness/model_endpoint_summary.csv",
+      "sha256": "773ca88e48950b42c992cc46d2286031a4052a95ca5b297204ca3c3e5fe9696f",
+      "size_bytes": 8609,
+      "source_path": "analysis/exhaustive_robustness_001/model_endpoint_summary.csv"
+    },
+    {
+      "exported_path": "data/robustness/model_endpoints.csv",
+      "sha256": "9e2277b4578b18746683eeeb6e67ac6f5571217a7cc6e1f6771cf2f501fb4aa9",
+      "size_bytes": 181012,
+      "source_path": "analysis/exhaustive_robustness_001/model_endpoints.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/REPORT.md",
+      "sha256": "3793cba954bbb0aa6c436093cfab48e6ce0a57cd43f4678e273184e3603fe617",
+      "size_bytes": 1586,
+      "source_path": "analysis/anchor_specificity_001/REPORT.md"
+    },
+    {
+      "exported_path": "data/spatial_specificity/anchor_architecture_B_summary.csv",
+      "sha256": "1fe1f8fbeac60ad9d27e6bffea79703c9714073143aa6fe566d78247513f779d",
+      "size_bytes": 20581,
+      "source_path": "analysis/anchor_specificity_001/anchor_architecture_B_summary.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/anchor_integrity.csv",
+      "sha256": "a4673120b6f649a660e59e619858e1ecca11009dba361b53cc1f535162efa9de",
+      "size_bytes": 301082,
+      "source_path": "analysis/anchor_specificity_001/anchor_integrity.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/evaluation_design.json",
+      "sha256": "b66bc37f75c9c065c6e298f9bf831b086c2e5beada7747d3f5fdb9f2aa275dc2",
+      "size_bytes": 828,
+      "source_path": "analysis/anchor_specificity_001/evaluation_design.json"
+    },
+    {
+      "exported_path": "data/spatial_specificity/execution_manifest.json",
+      "sha256": "3c78f960bdb5bae717f80a9e89e4a34b4a362912f1b3d1c46be9f27075dbd4a6",
+      "size_bytes": 1218,
+      "source_path": "analysis/anchor_specificity_001/execution_manifest.json"
+    },
+    {
+      "exported_path": "data/spatial_specificity/primary_spatial_architecture_interaction.csv",
+      "sha256": "c252c70e4d69e23f7e730f4d5fa5999244bdcbb90efdd093848bcfd7ffc69dd7",
+      "size_bytes": 454,
+      "source_path": "analysis/anchor_specificity_001/primary_spatial_architecture_interaction.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/primary_spatial_specificity.csv",
+      "sha256": "d39549e918a874a4e5bb5e18cf5fd05fcf136ed2a03ee6362410b122b4127520",
+      "size_bytes": 1094,
+      "source_path": "analysis/anchor_specificity_001/primary_spatial_specificity.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/primary_spatial_specificity_per_block.csv",
+      "sha256": "e0b7deeaf3cd6722aba63918ba1d817014f9b6edf129ccc646fe1108e9403f04",
+      "size_bytes": 14001,
+      "source_path": "analysis/anchor_specificity_001/primary_spatial_specificity_per_block.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/random_channel_spatial_architecture_interaction.csv",
+      "sha256": "931a23915c361145ed46c0787c3af48157e7fb3dab286e25dccfb2ca0e4db11f",
+      "size_bytes": 381,
+      "source_path": "analysis/anchor_specificity_001/random_channel_spatial_architecture_interaction.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/random_channel_spatial_specificity.csv",
+      "sha256": "f33dbf02ee5d3b3d2e789ad6182c1998d2f1cbeb08a8bfaebed437a62e75a0e2",
+      "size_bytes": 996,
+      "source_path": "analysis/anchor_specificity_001/random_channel_spatial_specificity.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/random_channel_spatial_specificity_per_block.csv",
+      "sha256": "a980f89390fb1b3b119ca7a256a1f81f723d93c8a7a11ed2017b1f89681392fb",
+      "size_bytes": 13750,
+      "source_path": "analysis/anchor_specificity_001/random_channel_spatial_specificity_per_block.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/secondary_anchor_contrasts.csv",
+      "sha256": "1801d5223c4d378693ab125f30204042a1fb27b0c28b70e6072abebaa9d6047c",
+      "size_bytes": 14168,
+      "source_path": "analysis/anchor_specificity_001/secondary_anchor_contrasts.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/secondary_anchor_contrasts_per_block.csv",
+      "sha256": "eda6736d047bf6012b3c58eb2dc909c06edaa4a3c642ac84a2d4d4073717b0fc",
+      "size_bytes": 660458,
+      "source_path": "analysis/anchor_specificity_001/secondary_anchor_contrasts_per_block.csv"
+    },
+    {
+      "exported_path": "data/spatial_specificity/training_design.json",
+      "sha256": "c823fa686e4a094b596d5616482a702e71fa6808fe860d3989e4027da7598c9e",
+      "size_bytes": 5212,
+      "source_path": "analysis/anchor_specificity_001/training_design.json"
+    },
+    {
+      "exported_path": "data/training_dynamics/learning_curves.csv",
+      "sha256": "4c8ff7e75f7d92f52c14fef02adf16613b56dc6cccf3cf8b0aa118083f91ef2c",
+      "size_bytes": 8936783,
+      "source_path": "results/retention_release_001/analysis/learning_curves.csv"
+    },
+    {
+      "exported_path": "protocols/additivity.md",
+      "sha256": "51efe93ad78b7d694487f8692d76731cf339b97517597505acb113331dda05e2",
+      "size_bytes": 11349,
+      "source_path": "studies/cnn_patching_additivity/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/architecture_comparison.md",
+      "sha256": "fa88b9c09ca68e940165292e440f58d8b50418fbf70db2cd74c0065c9703f54c",
+      "size_bytes": 14191,
+      "source_path": "studies/cnn_architecture_robustness/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/architecture_posthoc.md",
+      "sha256": "a78f6fe5c0c36e36a4d9a9923b8d34b16c19a8bc0e97b07a1cdbb649190d7d61",
+      "size_bytes": 5786,
+      "source_path": "studies/cnn_architecture_posthoc/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/checkpoint_audit.md",
+      "sha256": "4dfe41333425964d7f065436f45ec06d80cc871d1e60773656391dffc80e8422",
+      "size_bytes": 3882,
+      "source_path": "studies/cnn_checkpoint_audit/AUDIT_PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/intervention_budget.md",
+      "sha256": "3d08b09f3d2a34eac0c21cd8986dffb95fff8a475c8e08d7aadd68827776fee6",
+      "size_bytes": 5690,
+      "source_path": "studies/cnn_budget_confirmation/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/metric_sensitivity.md",
+      "sha256": "5153bba48b1cf66325e15940e0b119d3144cb50fe681d11d9e13ef48a8691eb8",
+      "size_bytes": 7987,
+      "source_path": "studies/cnn_metric_sensitivity/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/robustness_grid.md",
+      "sha256": "8f1f1ba69650d85fccc6708ce04d1d3f0d888415c35f21e6d70f74d6db561231",
+      "size_bytes": 5551,
+      "source_path": "studies/cnn_exhaustive_robustness/PROTOCOL.md"
+    },
+    {
+      "exported_path": "protocols/spatial_specificity.md",
+      "sha256": "762484ec15ce3a408ff48dbba0eb78651ccf0143d306c8daf1b6dc25080254a1",
+      "size_bytes": 14423,
+      "source_path": "studies/cnn_anchor_specificity/PROTOCOL.md"
+    },
+    {
+      "exported_path": "reproduce.py",
+      "sha256": "6f4fc03124df99fd92e7a2749239de42a44d111c7c63cb32a0458ac0de5218dc",
+      "size_bytes": 8489,
+      "source_path": "paper/reproducibility/reproduce.py"
+    },
+    {
+      "exported_path": "requirements.txt",
+      "sha256": "38547b1e320b0f6303af6067d0b407e8f5c24569ae8c1a0d05d6e44a0245a516",
+      "size_bytes": 222,
+      "source_path": "paper/reproducibility/requirements.txt"
+    }
+  ],
+  "paper": "When Do Activation-Patching Effects Add Up? Evidence from Controlled CNNs",
+  "schema_version": 1,
+  "source_commit": "4ccb2374bed0bf1d38eb9988726dba9a53b8c80e",
+  "source_repository": "heri-espino/Regularizing-First-Layer-CNN-Filters-Toward-Predefined-Templates"
+}

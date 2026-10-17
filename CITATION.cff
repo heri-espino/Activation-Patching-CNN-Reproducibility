@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these materials, cite this software artifact and the associated research article when available."
+type: software
+title: "Activation patching in controlled CNNs: reproducibility artifact"
+authors:
+  - family-names: "Espino Montelongo"
+    given-names: "Heriberto"
+    affiliation: "Universidad de las Américas Puebla"
+repository-code: "https://github.com/heri-espino/activation_patching_reproducibility"
+url: "https://github.com/heri-espino/activation_patching_reproducibility"
+license: MIT
+keywords:
+  - activation patching
+  - convolutional neural networks
+  - mechanistic interpretability
+  - reproducibility
+  - filter structure
+abstract: "Archived numerical data, analysis code, experimental protocols, and the inputs needed to regenerate the figures of When Do Activation-Patching Effects Add Up? Evidence from Controlled CNNs."

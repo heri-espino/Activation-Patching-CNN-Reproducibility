@@ -1,0 +1,35 @@
+# Generated figures and verification output
+/outputs/
+/build/
+/dist/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editor / operating system
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example

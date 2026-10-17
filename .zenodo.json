@@ -1,0 +1,20 @@
+{
+  "title": "Activation patching in controlled CNNs: reproducibility artifact",
+  "upload_type": "software",
+  "description": "Reproducibility materials accompanying the manuscript <i>When Do Activation-Patching Effects Add Up? Evidence from Controlled CNNs</i>. Contains derived analysis tables, selected experiment code and frozen protocols, and a standalone runner that regenerates eleven article and supplementary figure PDFs and verifies selected numerical results. Original training checkpoints and raw per-model outputs are not included.",
+  "creators": [
+    {
+      "name": "Espino Montelongo, Heriberto",
+      "affiliation": "Universidad de las Américas Puebla"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "activation patching",
+    "convolutional neural networks",
+    "mechanistic interpretability",
+    "reproducibility",
+    "filter structure"
+  ]
+}
